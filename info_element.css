@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #64DFDF;
+}
+.wrapper{
+    background:#fff;
+    width: 450px;
+    border-radius: 11px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1)
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+table{
+    text-align: center;
+    border-spacing: 7px;
+    border: none;
+    margin: 13px auto;
+}
+td{
+    width: 90px;
+    border-radius: 4px;
+    list-style: none;
+}
+td:hover{
+    transform: scale(1.1);
+}
+ul{
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.btn_voltar{
+    width: 85px;
+    height: 40px;
+    margin: 13px auto;
+    display: block;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;   
+    background: blueviolet;
+    color: white;
+    font: bold 13pt sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+.btn_voltar:hover{
+    background: rgb(103, 34, 168);
+}
+.btn_voltar:active{
+    box-shadow: inset 2px 2px 2px 2px rgb(71, 24, 116);
+}
+.p{
+    border-spacing: 7px;
+    text-align: left;
+    border-spacing: 7px;
+    border: none;
+    margin: 13px 20px 20px 20px;
+}
+.nmr-atomico{
+    text-align: left;
+    font-family: verdana;
+    font-size: 10pt;
+}
+.sigla{
+    font: bold 1.5em arial;
+}
+.nome{
+    font-size: 11pt;
+    font-family: sans-serif;
+}
+.numerozinho{
+    font: normal 10pt sans-serif;
+}
+.nao-metal{
+    background:cornflowerblue;
+}
+.gases-nobres{
+    background: lightcoral;
+}
+.metais-alcalinos{
+    background: #1fad83;
+}
+.alcalino-terroso{
+    background: #85ffc6;
+}
+.semi-metal{
+    background: lightpink;
+}
+.halogenio{
+    background: rgb(223, 211, 255);
+}
+.outros-metais{
+    background: rgb(196, 138, 250);
+}
+.transicao{
+    background: rgb(255, 146, 106);
+}
+.actinidios{
+    background: brown;
+}
